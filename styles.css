@@ -1,0 +1,287 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* Eric Meyer */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+p{
+	line-height: 1.5em;
+}
+
+
+.hidden{
+	display: none;
+}
+
+a{
+	color: #5D2C1E;
+	text-decoration: none;
+}
+body{
+	background-color: #FFFDDA;
+	font-size: 1em;
+	background: url('../img/livre.png') 2em 1% no-repeat;
+
+}
+
+.header__title, .content__title{
+	color:#5D2C1E;
+	font-size: 1.8em;
+}
+.nav{
+	text-align: right;
+	margin: 4em 12% -2em 0;
+	font-size: 1.2em;
+}
+
+.nav__index{
+	margin-left: 9em;
+}
+.nav__elt{
+	display: inline-block;
+
+	padding: 1em;
+	border-radius: 0.2em;
+	
+}
+.content{
+	width: 70em;
+	padding: 1em;
+	margin: 0 auto;
+}
+.intro__text{
+	width: 58%;
+	margin: -3em auto;
+	background-color: white;
+	z-index: 5;
+	color: #4A2218;
+	font-size: 1.2em;
+	padding: 0.5%;
+	border-radius: 15px;
+
+}
+.last__title{
+	font-size: 1.4em;
+	color:#5D2C1E;
+	margin-top: 11em;
+	padding-bottom: 2em;
+}
+.last__title2{
+	font-size: 1.4em;
+	padding-bottom: 2em;
+	padding-top: 1em;
+	color:#5D2C1E;
+	text-align: center;
+}
+
+.one{
+	border: 1px ridge #FFA07A;
+	margin-bottom: 3em;
+	height: 20.5em;
+	width: 72%;
+}
+
+.last{
+	width: 48em;
+	margin: 0 auto;
+	margin-top: -11em;
+}
+.last__text{
+	width: 60%;
+	margin-left: 5%;
+	padding: 0em 0 1.5em 0;
+	text-decoration: none;
+}
+.last__content{
+	position: relative;
+	top: -16em;
+	left: 15em;
+	margin-right: 7em;
+	margin-top: 1em;
+}
+.last__img{
+	margin-left: 2.5em;
+	margin-bottom: 1.5em;
+}
+footer, footer a {
+	color: white;
+	background-color: #B55E07;
+}
+footer{
+	height: 7em;
+}
+.social{
+	float: right;
+	margin-right: 26em;
+	margin-top: -2em;
+}
+.contact{
+	margin-left: 10em;
+	padding-top: 2.5em;
+}
+.webmaster{
+	/*margin-bottom: 3em;*/
+}
+.booknav{
+	padding: 3em;
+}
+.booknav__elt{
+	display: inline-block;
+	float: right;
+}
+.booknav-add{
+	background-color: #D15D84;
+	padding: 0.5em;
+	width: 13em;
+	border-radius: 1em;
+}
+.booknav-cot{
+	background-color: #5AC2F5;
+	padding: 0.5em;
+	width: 7em;
+	border-radius: 1em;
+	padding-right: 1em;
+}
+.booknav__add-white{
+	color: white;
+}
+.booknav__add-black{
+	color: black;
+}
+.content__text{
+	width: 40em;
+	margin-left: 3em;
+	padding: 1em 0 1.5em 0;
+}
+.content__text1, .content__text2{
+	margin-left: 3em;
+	padding-top: 1em;
+ }
+ .content__nav{
+ 	margin-left: 3em;
+ 	padding-bottom: 1em;
+ }
+ .content__elt{
+ 	padding-top: 1em;
+ }
+ .signUp{
+ 	float: right;
+ 	margin-top: -20.3em;
+ 	margin-right: 11em;
+ 	width : 25em;
+ 	border: 1px ridge #FFA07A;
+ 	padding: 1em;
+ 	padding-bottom: 5em;
+ 	height: 15.3em;
+ }
+ .signIn{
+
+ 	 margin-bottom: 5em;
+ 	 margin-left: 7em;
+ 	 border: 1px ridge #FFA07A;
+ 	 width: 25em;
+ 	 padding: 1em;
+ 	 padding-bottom: 5em;
+
+ }
+ .signUp__text{
+ 	margin-top: -2em;
+ }
+.signUp__title, .signIn__title{
+	margin-right: 3em;
+	margin-bottom: 1.5em;
+	padding: 0.5em;
+}
+.button{
+	background-color: #008080;
+	border-radius: 50em;
+	color: white;
+	margin-left: 5%;
+	margin-top: 1em;
+	padding: 0.5em;
+}
+.signIn__one, .signIn__two, .signUp__text{
+	padding-top: 1em;
+	margin-left: 2em;
+}
+.signUp__button{
+	top: 3.5em;
+}
+
+
+.searchbar{
+	float: right;
+	margin-top: -5em;
+	margin-right: 17.5em;
+}
+
+
+#toogle-nav:checked ~ ul{
+  transform: translateY(-300%) translateZ(0);
+}
+.nav__burger{
+  cursor: pointer;
+  text-decoration: underline;
+}
+#toogle-nav{
+	position: absolute;
+	bottom: 50em;
+}
+.linkAccueil{
+	text-decoration: none;
+}
