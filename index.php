@@ -16,7 +16,7 @@ PDOStatement pour les requêtes
 
 
     $a = isset( $_REQUEST[ 'a' ] ) ? $_REQUEST[ 'a' ] : 'home'; // request = méta tableau qui regroupe get et post
-    $e = isset( $_REQUEST[ 'e' ] ) ? $_REQUEST[ 'e' ] : 'page'; // par défaut, la page qui va s'afficher est la liste des livres
+    $e = isset( $_REQUEST[ 'e' ] ) ? $_REQUEST[ 'e' ] : 'page';
     
     // on teste si il y a un paramètre a ou un paramètre e dans l'url
     if( !in_array( $a .'_' . $e , $routes ) ) {

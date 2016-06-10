@@ -8,7 +8,6 @@
         'index_editors',
         'show_editors',
         'default'=>'home_page',
-        'home_page',
         'admin_page',
         'postRegister_auth',
         'getRegister_auth',

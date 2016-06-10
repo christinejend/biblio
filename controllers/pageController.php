@@ -43,8 +43,8 @@
         public function home(){
             
             $lastBooks = $this->books_model->getLastBooks();
-            /*$author = $this->authors_model->find($id);
-            $editor = $this->editors_model->find($id);*/
+            /*$authors = $this->authors_model->find($id);
+            $editors = $this->editors_model->find($id);*/
 
 
             return ['view'=>'home.php',
@@ -59,7 +59,11 @@
         }
 
 
-        return ['view'=>'admin.php', 'resource_title'=> 'Accueil - Admin'];
+        return ['view'=>'admin.php',
+                    'resource_title'=> 'Accueil - Admin',
+                    'authors' => $authors,
+                    'editors' => $editors,
+         ];
     }
 
     }

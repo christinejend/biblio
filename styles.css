@@ -59,8 +59,9 @@ table {
 	border-spacing: 0;
 }
 
-p{
+p, li{
 	line-height: 1.5em;
+	font-size: 1.2em;
 }
 
 
@@ -74,7 +75,7 @@ a{
 }
 body{
 	background-color: #FFFDDA;
-	font-size: 1em;
+	font-size: 1.2em;
 	background: url('../img/livre.png') 2em 1% no-repeat;
 
 }
@@ -82,11 +83,12 @@ body{
 .header__title, .content__title{
 	color:#5D2C1E;
 	font-size: 1.8em;
+	padding-bottom: 1.5em;
 }
 .nav{
 	text-align: right;
-	margin: 4em 12% -2em 0;
-	font-size: 1.2em;
+	margin: 3em 34% -2em 0;
+	font-size: 1.4em;
 }
 
 .nav__index{
@@ -102,7 +104,7 @@ body{
 .content{
 	width: 70em;
 	padding: 1em;
-	margin: 0 auto;
+	margin: 0 24%;
 }
 .intro__text{
 	width: 58%;
@@ -116,15 +118,15 @@ body{
 
 }
 .last__title{
-	font-size: 1.4em;
+	font-size: 1.5em;
 	color:#5D2C1E;
 	margin-top: 11em;
 	padding-bottom: 2em;
 }
 .last__title2{
-	font-size: 1.4em;
-	padding-bottom: 2em;
-	padding-top: 1em;
+	font-size: 1.3em;
+	padding-bottom: 3em;
+	padding-top: 2em;
 	color:#5D2C1E;
 	text-align: center;
 }
@@ -132,12 +134,12 @@ body{
 .one{
 	border: 1px ridge #FFA07A;
 	margin-bottom: 3em;
-	height: 20.5em;
-	width: 72%;
+	height: 26.5em;
+	width: 81%;
 }
 
 .last{
-	width: 48em;
+	width: 80%;
 	margin: 0 auto;
 	margin-top: -11em;
 }
@@ -218,7 +220,7 @@ footer{
  }
  .content__elt{
  	padding-top: 1em;
- }
+ }/*
  .signUp{
  	float: right;
  	margin-top: -20.3em;
@@ -263,13 +265,15 @@ footer{
 	top: 3.5em;
 }
 
-
+*/
 .searchbar{
 	float: right;
 	margin-top: -5em;
-	margin-right: 17.5em;
+	margin-right: 7.5em;
 }
-
+.intro__img{
+	z-index: 1;
+}
 
 #toogle-nav:checked ~ ul{
   transform: translateY(-300%) translateZ(0);
@@ -280,7 +284,7 @@ footer{
 }
 #toogle-nav{
 	position: absolute;
-	bottom: 50em;
+	bottom: 60em;
 }
 .linkAccueil{
 	text-decoration: none;

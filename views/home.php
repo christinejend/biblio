@@ -12,7 +12,7 @@
 		<?php if( $datas[ 'book' ] ): ?>
 			<?php foreach ($datas['book'] as $book): ?>
 			<div class="one">
-				<a href="html/livre.html">
+                <a href="">
 					<h3 class="last__title2">TITRE : <?php echo $book->title ?></h3>
 
 					<?php if( $book->cover ): ?>
